@@ -1,6 +1,7 @@
-function updateTotalOutput(){
-    
-}
+
+document.getElementById('btn-blog').addEventListener('click', function(){
+    window.location.href = 'blog.html';
+})
 
 // 1. Triangle Output 
 document.getElementById('btn-triangle').addEventListener('click', function(){
